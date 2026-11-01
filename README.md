@@ -14,18 +14,13 @@ I work where AI engineering meets IT leadership. I set technical direction, buil
 
 | Project | Scope | Stack |
 |---|---|---|
-| **Project North Star** | Agentic AI initiative I lead at Expert Management Group, automating operations across the business | Agentic AI, LLMs |
+| **[Project North Star](https://github.com/ddunmeyer/NorthStar)** | Agentic AI initiative I lead at Expert Management Group, automating operations across the business. A coordinator agent routes one question across HR, developer and IT specialists and returns a cited answer, and actions need human confirmation. Built with Biswa; a 30-case evaluation took it from 24 to 30 passing with a 2.8-second median response | Strands Agents, Amazon Bedrock, DynamoDB, Streamlit |
 | **DocIntel** | Secure document intelligence for regulated practices, starting with CPA firms and extending to medical and legal. High-confidence results are approved automatically, so professionals review only the exceptions | Python, LLMs, AWS Textract |
 | **AI Email Router** | Production intake automation for an accounting firm that reads each incoming email and routes it to the right person | Make.com, OpenAI API |
 | **VANGUARD EDGE** | Counter-UAS edge AI tracker that runs on CPU without PyTorch, with custom sky mapping, small-target detection, clutter rejection and motion-track confirmation | Python, YOLOv8 (ONNX Runtime), OpenCV, NumPy |
 | **AI Interview Platform** | AI-driven mock interview system for job seekers | Python, LLMs |
 | **OCR Scanning Tool** | Document OCR pipeline stress-tested on realistic tax documents for CPA year-end reporting | Python, AWS Textract |
-
-## Public Code
-
-**[North Star](https://github.com/ddunmeyer/NorthStar)**: multi-agent employee assistant on Amazon Bedrock, built with Biswa. A coordinator agent routes one question across HR, developer and IT specialists, then returns an answer with citations. Actions need human confirmation, and a 30-case evaluation took it from 24 to 30 passing with a 2.8-second median response.
-
-**[Secure RAG Assistant](https://github.com/ddunmeyer/secure-rag-assistant)**: RAG pipeline with security controls at every boundary, including prompt-injection blocking, sensitive-data redaction, sensitivity tagging and hallucination monitoring, backed by automated safety tests in CI.
+| **[Secure RAG Assistant](https://github.com/ddunmeyer/secure-rag-assistant)** | RAG pipeline with security controls at every boundary, including prompt-injection blocking, sensitive-data redaction, sensitivity tagging and hallucination monitoring, backed by automated safety tests in CI | Python, LangChain, ChromaDB, Gemini |
 
 ## Leadership
 
